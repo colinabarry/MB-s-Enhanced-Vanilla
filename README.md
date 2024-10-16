@@ -1,4 +1,4 @@
-![MB's Enhanced Vanilla Banner v2](https://github.com/user-attachments/assets/d6a442d1-7b8d-4d23-8fee-15f325a2328a)
+![MB's Enhanced Vanilla Banner v2](https://github.com/user-attachments/assets/1b2f3dfd-2d2e-407b-a0b0-ea51391612ba)
 
 ## Explore
 Discover new biomes and structures, improved world generation, and tougher mobs the further you travel. Many new animals have been added as well!
