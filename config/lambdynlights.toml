@@ -1,0 +1,161 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				glow_item_frame = false
+				player = true
+				cow = true
+				horse = true
+				pig = true
+				sheep = true
+				squid = true
+				creeper = true
+				glow_squid = true
+				skeleton = true
+				zombie = true
+				item = true
+				spider = true
+				drowned = true
+				enderman = true
+				slime = true
+				bat = true
+				salmon = true
+				axolotl = true
+				zombie_villager = true
+				dolphin = true
+				cod = true
+				witch = true
+				cave_spider = true
+				chicken = true
+				donkey = true
+				rabbit = true
+				villager = true
+				iron_golem = true
+				cat = true
+				fox = true
+				bee = true
+				wolf = true
+				painting = true
+				pillager = true
+				tnt_minecart = true
+				pufferfish = true
+				tropical_fish = true
+				fireball = true
+				vindicator = true
+				polar_bear = true
+				item_frame = true
+				evoker = true
+				goat = true
+				stray = true
+				husk = true
+				allay = true
+				arrow = true
+				experience_orb = true
+				guardian = true
+
+			[light_sources.settings.entities.naturalist]
+				snail = true
+				snake = true
+				robin = true
+				bass = true
+				firefly = true
+				butterfly = true
+				cardinal = true
+				sparrow = true
+				duck = true
+				coral_snake = true
+				bear = true
+				rattlesnake = true
+				deer = true
+				lizard = true
+				vulture = true
+				tortoise = true
+				bluejay = true
+				boar = true
+
+			[light_sources.settings.entities.wildlife]
+				catfish = true
+				prawn = true
+				bluegill = true
+				rainbow_trout = true
+				starfish = true
+				seaurchin = true
+				horseshoecrab = true
+				goldfish = true
+				koi = true
+				bettafish = true
+				shrimp = true
+				jellyfish = true
+				sanddollar = true
+				clam = true
+				lark = true
+				june_beetle = true
+				white_eye = true
+				sparrow = true
+				possum = true
+				wren = true
+				spicebush_butterfly = true
+				ladybug = true
+				oriole = true
+				armadillo = true
+				sunflowerbeetle = true
+				glasswing_butterfly = true
+				ant = true
+				alligator = true
+				hamster = true
+				flycatcher = true
+				spider = true
+				python = true
+				chameleon = true
+				bluebird = true
+				meadowlark = true
+				gecko = true
+				dragonfly = true
+				king_snake = true
+				iguana = true
+				mantaray = true
+				stingray = true
+				seahorse = true
+				hammerhead_shark = true
+
+			[light_sources.settings.entities.biomeswevegone]
+				oddion = true
+
+			[light_sources.settings.entities.lootr]
+				lootr_minecart = true
+
+			[light_sources.settings.entities.friendsandfoes]
+				rascal = true
+				mauler = true
+				copper_golem = true
+
+			[light_sources.settings.entities.wilderwild]
+				tumbleweed = true
+				jellyfish = true
+				crab = true
+
+			[light_sources.settings.entities.snowyspirit]
+				gingerbread_golem = true
+				sled = true
+				container_entity = true
+
